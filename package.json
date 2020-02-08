@@ -1,0 +1,33 @@
+{
+  "name": "11ty-filter-pluralize",
+  "description": "Playing around with pluralize library as a Nunjucks plugin for Eleventy.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-filter-pluralize/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "pluralize": "^8.0.0"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-filter-pluralize#readme",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "filter",
+    "nunjucks",
+    "pluralize"
+  ],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-filter-pluralize.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

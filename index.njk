@@ -1,0 +1,11 @@
+<h2><code>{% raw %}{{ "knife" | pluralize(n) }}{% endraw %}</code></h2>
+{%- for idx in range(0, 3) %}
+[{{ idx }}] {{ "knife" | pluralize(idx) | dump }}<br/>
+{%- endfor %}
+
+<hr>
+
+<h2><code>{% raw %}{{ "ax" | pluralize(n, true) }}{% endraw %}</code></h2>
+{%- for idx in range(0, 3) %}
+[{{ idx }}] {{ "ax" | pluralize(idx, true) | dump }}<br/>
+{%- endfor %}
